@@ -23,6 +23,11 @@ public class CampusHelperController {
         ModelAndView mw = new ModelAndView("CampusHelper/teachers_studentlistPage");
         return mw;
     }
+    @RequestMapping(value = "/SomePage", method = RequestMethod.GET)
+    public ModelAndView somePage() {
+        ModelAndView mw = new ModelAndView("CampusHelper/SomePage");
+        return mw;
+    }
 
 
 }
