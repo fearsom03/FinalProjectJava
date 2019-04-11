@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-md-4">
                 <form action="/login" method="post">
-                    <label>Bank Kuanysh</label>
+                    <label> Kuanysh</label>
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="text" id="email" class="form-control" name="email_parameter">
@@ -32,10 +32,13 @@
         </div>
     </div>
 
-
     <br>
     <form action="/teachersPage" method="get">
-        <input type="submit" value="OKOK"></form>
+        <input type="submit" value="Teacher"></form>
+    </form>
+    <form action="/studentFirstPage
+" method="get">
+        <input type="submit" value="Student"></form>
     </form>
 </body>
 </html>

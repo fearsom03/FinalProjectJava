@@ -27,103 +27,85 @@
 <body id="page-top">
 
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
-
-    <a class="navbar-brand mr-1" href="index.html">Start Bootstrap</a>
-
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
     </button>
 
-    <!-- Navbar Search -->
-    <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-                <button class="btn btn-primary" type="button">
-                    <i class="fas fa-search"></i>
-                </button>
-            </div>
-        </div>
-    </form>
+    <a class="navbar-brand mr-1" href="#">IITU CAMPUS</a>
+
+
 
     <!-- Navbar -->
-    <ul class="navbar-nav ml-auto ml-md-0">
-        <li class="nav-item dropdown no-arrow mx-1">
-            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-bell fa-fw"></i>
-                <span class="badge badge-danger">9+</span>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="alertsDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-        </li>
-        <li class="nav-item dropdown no-arrow mx-1">
-            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-envelope fa-fw"></i>
-                <span class="badge badge-danger">7</span>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-        </li>
-        <li class="nav-item dropdown no-arrow">
-            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-user-circle fa-fw"></i>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="#">Settings</a>
-                <a class="dropdown-item" href="#">Activity Log</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
-            </div>
-        </li>
-    </ul>
+    <div _ngcontent-c3="" class="collapse navbar-collapse">
+        <ul _ngcontent-c3="" class="navbar-nav ml-auto">
+            <li _ngcontent-c3="" class="nav-item dropdown" ngbdropdown="">
+                <a _ngcontent-c3="" aria-haspopup="true" class="nav-link dropdown-toggle" href="javascript:void(0)" ngbdropdowntoggle="" aria-expanded="false">
+                    <i _ngcontent-c3="" class="fa fa-language"></i>
+                    Русский <b _ngcontent-c3="" class="caret"></b></a>
+                <div _ngcontent-c3="" class="dropdown-menu dropdown-menu-right">
+                    <a _ngcontent-c3="" href="javascript:void(0)" class="dropdown-item active"> Русский </a>
+                    <a _ngcontent-c3="" href="javascript:void(0)" class="dropdown-item "> Англиский </a>
+                    <a _ngcontent-c3="" href="javascript:void(0)" class="dropdown-item "> Казахский </a></div></li>
+
+            <li _ngcontent-c3="" class="nav-item dropdown" ngbdropdown="">
+                <a _ngcontent-c3="" aria-haspopup="true" class="nav-link dropdown-toggle" href="javascript:void(0)" ngbdropdowntoggle="" aria-expanded="false">
+                    <i _ngcontent-c3="" class="fa fa-user"></i> Madina Saparbayeva <b _ngcontent-c3="" class="caret">
+                </b></a>
+                <div _ngcontent-c3="" class="dropdown-menu dropdown-menu-right">
+                    <a _ngcontent-c3="" class="dropdown-item" href="#/profile">
+                        <i _ngcontent-c3="" class="fa fa-fw fa-user"></i> Профиль </a>
+                    <a _ngcontent-c3="" class="dropdown-item" href="#/login">
+                        <i _ngcontent-c3="" class="fa fa-fw fa-power-off"></i> Выйти </a></div></li></ul></div>
 
 </nav>
-
 <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="sidebar navbar-nav">
-        <li class="nav-item active">
-            <a class="nav-link" href="index.html">
-                <i class="fas fa-fw fa-tachometer-alt"></i>
-                <span>Dashboard</span>
-            </a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-fw fa-folder"></i>
-                <span>Pages</span>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-                <h6 class="dropdown-header">Login Screens:</h6>
-                <a class="dropdown-item" href="login.html">Login</a>
-                <a class="dropdown-item" href="register.html">Register</a>
-                <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
-                <div class="dropdown-divider"></div>
-                <h6 class="dropdown-header">Other Pages:</h6>
-                <a class="dropdown-item" href="404.html">404 Page</a>
-                <a class="dropdown-item" href="blank.html">Blank Page</a>
-            </div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="charts.html">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Charts</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="tables.html">
-                <i class="fas fa-fw fa-table"></i>
-                <span>Tables</span></a>
-        </li>
+        <ul class="sidebar navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Рабочая область</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="fa fa-book"></i>
+                    <span>Учебный план</span>
+                </a>
+            </li>
+
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Бизнес-процесс</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+                    <h6 class="dropdown-header">Login Screens:</h6>
+                    <a class="dropdown-item" href="login.html">Login</a>
+                    <a class="dropdown-item" href="register.html">Register</a>
+                    <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
+                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">Other Pages:</h6>
+                    <a class="dropdown-item" href="404.html">404 Page</a>
+                    <a class="dropdown-item active" href="blank.html">Blank Page</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i _ngcontent-c4="" class="fa fa-fw fa-object-group"></i>
+                    <span>Мои справки</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i _ngcontent-c4="" class="fa fa-book"></i>
+                    <span>Мои транскрипты</span></a>
+            </li>
+        </ul>
     </ul>
+
+
 
     <div id="content-wrapper">
 
@@ -143,7 +125,9 @@
             </ol>
 
             <br>
-            <button class="btn btn-success">Добавить студента</button>
+            <form action="/addStudent" method="пуе">
+                <button  class="btn btn-success">Добавить студента</button>
+            </form>
 
             <div class="card mb-3">
 
@@ -170,7 +154,7 @@
                             </tr>
                             </tr>
                             </tfoot>
-                            <tbody onclick="window.location='/teachers_studentListPage';" >
+                            <tbody onclick="window.location='/studentPage';" >
                             <%--<c:forEach items="10">    its for future database--%>
                             <tr>
                                 <td>1</td>
@@ -300,6 +284,7 @@
         </div>
     </div>
 </div>
+</div>
 
 
 
@@ -311,12 +296,12 @@
 <script src="/resources/vendor/jquery-easing/jquery.easing.min.js"></script>
 
 <!-- Page level plugin JavaScript-->
-<script src="/resources/vendor/chart.js/Chart.min.js"></script>
-<script src="/resources/vendor/datatables/jquery.dataTables.js"></script>
-<script src="/resources/vendor/datatables/dataTables.bootstrap4.js"></script>
+<script src="<c:url value="/resources/vendor/chart.js/Chart.min.js"/>"></script>
+<script src="<c:url value="/resources/vendor/datatables/jquery.dataTables.js"/>"></script>
+<script src="<c:url value="/resources/vendor/datatables/dataTables.bootstrap4.js"/>"></script>
 
 <!-- Custom scripts for all pages-->
-<script src="/resources/js/sb-admin.min.js"></script>
+<script src="<c:url value="/resources/js/sb-admin.min.js"/>"></script>
 
 <!-- Demo scripts for this page-->
 <script src="/resources/js/demo/datatables-demo.js"></script>
