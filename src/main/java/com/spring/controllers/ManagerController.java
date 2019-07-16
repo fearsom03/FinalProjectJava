@@ -327,27 +327,6 @@ public class ManagerController {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     public void addBankCommission(Currencie currencie , double amount){
         Bank_total_balance bank = dbbean.getBankBalanceBYCurrency(currencie);
         double money = bank.getValue();
